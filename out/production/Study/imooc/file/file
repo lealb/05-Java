@@ -1,0 +1,10 @@
+一、IO流
+可以是字节或者字符形式读写
+1.字节流
+    1）InputStream/OutputStream 抽象了读写数据的方式
+    2）EOF=End 读到-1结束
+    3）输入流 read
+        int b=in.read();读取一个字节填充到int的低八位
+    4）输出流 write
+    从文件中读取数据到内存中称为读read,也就是对应输入流;
+    从内存中把数据存储到文件称为写write,也就是对应输出流
