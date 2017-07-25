@@ -6,5 +6,16 @@ package com.tstatic;
  * Created by Leal
  * on 2017/6/13:23:20.
  */
-public class ChildOne {
+public class ChildOne extends Father {
+    static {
+        System.out.println("ChildOne static Create");
+    }
+
+    {
+        System.out.println("ChildOne Create");
+    }
+
+    public static void StaticFunction() {
+        System.out.println("ChildOne static Function");
+    }
 }

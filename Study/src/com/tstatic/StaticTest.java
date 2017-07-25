@@ -1,4 +1,4 @@
-package com.test;
+package com.tstatic;
 
 /**
  * Description:测试静态块
